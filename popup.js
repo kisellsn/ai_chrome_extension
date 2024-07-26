@@ -3,7 +3,7 @@ document.getElementById('submit-button').addEventListener('click', async () => {
   const outputElement = document.getElementById('output');
 
   try {
-    const response = await fetch('http://localhost:5050/api/ask', {
+    const response = await fetch('https://ai-chrome-extension.onrender.com/api/ask', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
